@@ -1,3 +1,5 @@
+
+
 *.xml
 .idea
 /.idea/
@@ -142,3 +144,7 @@ dist
 /output_russian_shares_zip/
 /logs_/
 /wsl$/
+
+
+
+!tsconfig.app.json

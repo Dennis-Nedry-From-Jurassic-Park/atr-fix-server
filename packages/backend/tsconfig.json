@@ -23,7 +23,7 @@
     "removeComments": true,
     "isolatedModules": false,
     "incremental": true,
-    "importHelpers": true,
+    "importHelpers": false,
     "outDir": "./dist",
     "baseUrl": "./",
     "emitDecoratorMetadata": true,

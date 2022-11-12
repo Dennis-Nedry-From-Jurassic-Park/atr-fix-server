@@ -5,12 +5,16 @@
   "license": "Apache-2.0",
   "scripts": {
     "build:ms:atr": "yarn nest build ms-template",
-    "start:ms:atr": "ts-node -r tsconfig-paths/register apps/ms-template/src/main.ts"
+    "start:ms:atr": "ts-node -r tsconfig-paths/register apps/ms-template/src/main.ts",
+    "start:ms:fix:server": "ts-node -r tsconfig-paths/register apps/ms-fix-server/src/main.ts",
+    "start:ms:fix:client": "ts-node -r tsconfig-paths/register apps/ms-fix-server/src/client.ts"
   },
   "dependencies": {
-
+    "fix-over-tcp": "^0.0.1"
   },
   "devDependencies": {
-
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4"
   }
 }
